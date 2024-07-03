@@ -11,6 +11,7 @@ public class TestMain {
 	    System.setProperty("webdriver.gecko.driver", "C:\\Users\\HP\\Downloads\\Selenium\\Browser drivers\\geckodriver.exe");
       
  driver = new FirefoxDriver();
- driver.get("https://www.google.com/");
+ driver.manage().window().maximize();
+ driver.get("https://www.booking.com/");
 }
 }
